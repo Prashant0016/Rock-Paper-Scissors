@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors Game</title>
+    <link rel="stylesheet" href="rps-design.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="header">
+        Rock Paper Scissors SHOOT !!
+    </header>
+
+    <div class="rps-grid">
+        <div class="score-area">
+            <div class="score-section-para">
+                <p>Score &#x3A;</p>
+                <p>You &ndash; <span class="js-wins">${score.wins}</span></p>
+                <p>Computer &ndash; <span class="js-losses">${score.losses}</span></p>
+            </div>
+            
+            <div class="score-section-buttons">
+                <button class="reset-score-button" onclick="reset()">Reset Score</button>
+                <button id="auto-play-button" class="auto-play-button" onclick="toggleAutoPlay()">Auto Play</button>
+            </div>
+        </div>
+
+        <div class="game-section">
+            <p class="sub-heading">Let's Play , Choose an Option</p>
+            <div class="buttons">
+                <button class="css-rock-button" onclick="playgame('rock')">
+                    <img class="rock-image" src="images/rock-image1.png">
+                    <p class="rock-naming">Rock</p>
+                </button>
+                <button class="css-paper-button" onclick="playgame('paper')">
+                    <img class="paper-image" src="images/paper-image.png">
+                    <p class="paper-naming">Paper</p>
+                </button>
+                <button class="css-scissors-button" onclick="playgame('scissors')">
+                    <img class="scissors-image" src="images/scissors-image1.png">
+                    <p class="scissors-naming">Scissors</p>
+                </button>
+            </div>
+            
+            <div class="result-section">
+                <p class="result-naming">Result &rarr;</p>
+                <p class="css-updated-result js-updated-result"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="rps-interactive.js"></script>
+</body>
+
+</html>

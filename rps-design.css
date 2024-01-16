@@ -1,0 +1,141 @@
+.body{
+    margin: 0;
+    background-color: #c5d5cb;    
+}
+.header{
+    background-color: black;
+    color: aquamarine;
+    font-family: Montserrat , sans-serif;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    padding: 10px 10px;
+    position: sticky;
+    z-index: 100;
+}
+.rps-grid{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    padding-top: 54px;
+    
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.score-section-para{
+    display: flex;
+    flex-direction: column;
+    padding-left: 140px;
+    padding-top: 50px;
+    font-family: Montserrat , sans-serif;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.score-section-para p{
+    margin: 20px 2px 20px 2px;
+}
+.score-section-buttons{
+    display: flex;
+    padding-left: 140px;
+}
+.score-section-buttons button{
+    margin-right: 15px;
+}
+
+
+.sub-heading{
+    display: flex;
+    align-items: center;
+    font-family: Montserrat , sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.rock-image{
+    height: 100px;
+    
+}
+.rock-naming{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Montserrat , sans-serif;
+    font-size: 17px;
+}
+
+.css-rock-button{
+    padding: 20px 20px 5px 20px;
+    background-color: transparent;
+    border: 5px solid rgb(245, 82, 82);
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.paper-image{
+    height: 100px;
+    padding-left: 13px;
+}
+.paper-naming{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Montserrat , sans-serif;
+    font-size: 17px;
+}
+
+.css-paper-button{
+    padding: 10px 13px 10px 13px;
+    background-color: transparent;
+    border: 5px solid rgb(96, 85, 246);
+    border-radius: 50%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.scissors-image{
+    height: 100px;
+}
+.scissors-naming{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Montserrat , sans-serif;
+    font-size: 17px;
+}
+.css-scissors-button{
+    padding: 11px 32px;
+    background-color: transparent;
+    border: 5px solid rgb(75, 203, 107);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.reset-score-button , .auto-play-button{
+    font-family: Montserrat , sans-serif;
+    font-size: 19px;
+    padding: 10px;
+    width: 150px;
+    background-color: aquamarine;
+    color: black;
+    border: 4px solid black;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.result-section{
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat , sans-serif;
+    align-items: center;
+    margin-top: 40px;
+}
+.result-naming{
+    margin: 0px;
+    margin-right: 10px;
+    font-size: 35px;
+    width: 122px;
+    padding-top: 6px;
+}
+.css-updated-result{
+    margin: 0px;
+    font-size: 38px;
+    padding-top: 7px;
+}

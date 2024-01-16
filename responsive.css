@@ -1,0 +1,321 @@
+@media (min-width:1399px) and (max-width:2500px){
+    .rps-grid{
+        grid-template-columns: 500px 1fr;
+    }
+    .result-naming ,
+    .css-updated-result{
+        font-size: 35px;
+    }
+    .result-naming{
+        width: 158px;
+    }
+}
+@media (min-width:1269px) and (max-width:1398px){
+    .result-naming ,
+    .css-updated-result{
+        font-size: 30px;
+    }
+    .result-naming{
+        width: 135px;
+    }
+}
+@media (min-width:1093px) and (max-width:1268px){
+    .result-naming ,
+    .css-updated-result{
+        font-size: 23px;
+    }
+    .result-naming{
+        width: 104px;
+    }
+}
+@media (max-width:1092px){
+    .rps-grid{
+        grid-template-columns: 1fr;
+        padding-top: 10px;
+    }
+    .score-section-para{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;   
+    }
+    .score-section-para p{
+        margin-right: 30px;
+    }
+    .score-section-buttons{
+        padding-left: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .game-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .result-naming ,
+    .css-updated-result{
+        font-size: 39px;
+    }
+}
+@media (min-width:999px) and (max-width:1091px){
+    .result-naming ,
+    .css-updated-result{
+        font-size: 39px;
+    }
+    .result-naming{
+        width: 176px;
+    }
+}
+@media (min-width:897px) and (max-width:998px){
+    .result-naming ,
+    .css-updated-result{
+        font-size: 35px;
+    }
+    .result-naming{
+        width: 158px;
+    }
+}
+@media (min-width:708px) and (max-width:896px){
+    .header{
+        font-size: 37px;
+    }
+    .css-updated-result{
+        font-size: 27px;
+    }
+    .result-naming{
+        width: 135px;
+        font-size: 30px;
+
+    }
+}
+@media (min-width:587px) and (max-width:707px){
+    .header{
+        font-size: 37px;
+    }
+    .css-updated-result{
+        font-size: 29px;
+    }
+    .result-naming{
+        width: 177px;
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 586px) {
+    .header{
+        font-size: 37px;
+    }
+    .sub-heading{
+        font-size: 39px;
+    }
+    .result-naming ,  .css-updated-result{
+        font-size:30px;
+    }
+}
+@media (min-width:466px) and (max-width:585px) {
+    .header{
+        font-size: 30px;
+    }
+
+    .score-section-para{
+        flex-direction: column;
+    }
+    .sub-heading{
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: 14px;
+    }
+    .rock-image ,
+    .scissors-image ,
+    .paper-image{
+        height: 50px;
+    }
+    .css-scissors-button{
+        padding: 11px 15px;
+    }
+    .css-rock-button{
+        padding-top: 10px;
+        margin-left: 5px;
+    }
+    .result-naming , 
+    .css-updated-result{
+        font-size: 20px;
+    }
+    .result-naming{
+        width: 90px;
+    }
+    .score-section-para{
+        font-size: 30px;
+    }
+    .score-section-para p{
+        margin: 9px;
+    }
+    .result-section{
+        margin-top: 19px;
+    }
+}
+@media (min-width:378px) and (max-width:465px){
+    .header{
+        font-size: 24px;
+    }
+
+    .score-section-para{
+        flex-direction: column;
+    }
+    .sub-heading{
+        font-size: 24px;
+        margin-bottom: 30px;
+        margin-top: 14px;
+    }
+    .rock-image ,
+    .scissors-image ,
+    .paper-image{
+        height: 50px;
+    }
+    .css-scissors-button{
+        padding: 11px 15px;
+    }
+    .css-rock-button{
+        padding-top: 10px;
+        margin-left: 5px;
+    }
+    .result-naming , 
+    .css-updated-result{
+        font-size: 20px;
+    }
+    .result-naming{
+        width: 90px;
+    }
+    .score-section-para{
+        font-size: 24px;
+    }
+    .score-section-para p{
+        margin: 9px;
+    }
+    .result-section{
+        margin-top: 19px;
+    }
+}
+@media (min-width:317px) and (max-width:377px){
+    .header{
+        font-size: 20px;
+    }
+
+    .score-section-para{
+        flex-direction: column;
+    }
+    .sub-heading{
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 14px;
+    }
+    .rock-image ,
+    .scissors-image ,
+    .paper-image{
+        height: 40px;
+    }
+    .css-scissors-button{
+        padding: 11px 11px;
+    }
+    .css-rock-button{
+        padding-top: 10px;
+        margin: 2px;
+    }
+    .css-paper-button{
+        margin: 2px;
+    }
+    .result-naming , 
+    .css-updated-result{
+        font-size: 20px;
+    }
+    .result-naming{
+        width: 90px;
+    }
+    .score-section-para{
+        font-size: 20px;
+    }
+    .score-section-para p{
+        margin: 9px;
+    }
+    .result-section{
+        margin-top: 19px;
+    }
+    .reset-score-button ,
+    .auto-play-button{
+        padding: 3px;
+        width: 80px;
+    }
+}
+@media (max-width:316px){
+    .header{
+        font-size: 15px;
+    }
+
+    .score-section-para{
+        flex-direction: column;
+    }
+    .sub-heading{
+        font-size: 15px;
+        margin-bottom: 20px;
+        margin-top: 14px;
+    }
+    .rock-image ,
+    .scissors-image ,
+    .paper-image{
+        height: 25px;
+    }
+    .paper-image{
+        padding-left: 0px;
+    }
+    .rock-naming ,
+    .paper-naming {
+        font-size: 15px;
+    }
+    .scissors-naming{
+        font-size: 13px;
+    }
+    .css-scissors-button{
+        padding: 11px;
+        border-radius: 50%;
+    }
+    .css-rock-button{
+        padding: 13px;
+        margin: 2px;
+        border-radius: 50%;
+    }
+    .css-paper-button{
+        padding: 11px;
+        margin: 2px;
+    }
+    .result-naming , 
+    .css-updated-result{
+        font-size: 15px;
+    }
+    .result-naming{
+        width: 90px;
+    }
+    .score-section-para{
+        font-size: 20px;
+    }
+    .score-section-para p{
+        margin: 9px;
+    }
+    .result-section{
+        margin-top: 19px;
+    }
+    .reset-score-button ,
+    .auto-play-button{
+        padding: 3px;
+        width: 80px;
+    }
+}
+
+
+
+
+
+
+
+
